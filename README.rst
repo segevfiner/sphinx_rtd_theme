@@ -46,11 +46,13 @@ In your ``conf.py`` file:
     html_theme = "sphinx_rtd_theme"
     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
-or (since master):
+or:
 
 .. code:: python
 
     html_theme = "sphinx_rtd_theme"
+	
+.. versionadded:: 0.2.5
 
 Via git or download
 -------------------
